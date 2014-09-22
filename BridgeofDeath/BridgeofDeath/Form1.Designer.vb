@@ -24,7 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.btnAnswer = New System.Windows.Forms.Button()
         Me.txtanswer = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtAnswer2 = New System.Windows.Forms.TextBox()
@@ -34,6 +33,8 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.lbl6Answer = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.btnAnswer2 = New System.Windows.Forms.Button()
+        Me.lblAnswer7 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -48,19 +49,10 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(190, 179)
+        Me.Label2.Location = New System.Drawing.Point(137, 161)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(0, 13)
         Me.Label2.TabIndex = 1
-        '
-        'btnAnswer
-        '
-        Me.btnAnswer.Location = New System.Drawing.Point(102, 179)
-        Me.btnAnswer.Name = "btnAnswer"
-        Me.btnAnswer.Size = New System.Drawing.Size(98, 38)
-        Me.btnAnswer.TabIndex = 2
-        Me.btnAnswer.Text = "Enter Answer"
-        Me.btnAnswer.UseVisualStyleBackColor = True
         '
         'txtanswer
         '
@@ -88,7 +80,7 @@ Partial Class Form1
         'lbl4Answer
         '
         Me.lbl4Answer.AutoSize = True
-        Me.lbl4Answer.Location = New System.Drawing.Point(61, 217)
+        Me.lbl4Answer.Location = New System.Drawing.Point(8, 199)
         Me.lbl4Answer.Name = "lbl4Answer"
         Me.lbl4Answer.Size = New System.Drawing.Size(0, 13)
         Me.lbl4Answer.TabIndex = 6
@@ -112,7 +104,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(190, 228)
+        Me.Label5.Location = New System.Drawing.Point(137, 210)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(0, 13)
         Me.Label5.TabIndex = 9
@@ -134,11 +126,31 @@ Partial Class Form1
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Bridge of Death"
         '
+        'btnAnswer2
+        '
+        Me.btnAnswer2.Location = New System.Drawing.Point(95, 199)
+        Me.btnAnswer2.Name = "btnAnswer2"
+        Me.btnAnswer2.Size = New System.Drawing.Size(137, 45)
+        Me.btnAnswer2.TabIndex = 12
+        Me.btnAnswer2.Text = "Enter Answer"
+        Me.btnAnswer2.UseVisualStyleBackColor = True
+        '
+        'lblAnswer7
+        '
+        Me.lblAnswer7.AutoSize = True
+        Me.lblAnswer7.Location = New System.Drawing.Point(193, 177)
+        Me.lblAnswer7.Name = "lblAnswer7"
+        Me.lblAnswer7.Size = New System.Drawing.Size(39, 13)
+        Me.lblAnswer7.TabIndex = 13
+        Me.lblAnswer7.Text = "Label7"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Controls.Add(Me.lblAnswer7)
+        Me.Controls.Add(Me.btnAnswer2)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.lbl6Answer)
         Me.Controls.Add(Me.Label5)
@@ -148,7 +160,6 @@ Partial Class Form1
         Me.Controls.Add(Me.txtAnswer2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtanswer)
-        Me.Controls.Add(Me.btnAnswer)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
@@ -159,7 +170,6 @@ Partial Class Form1
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents btnAnswer As System.Windows.Forms.Button
     Friend WithEvents txtanswer As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents txtAnswer2 As System.Windows.Forms.TextBox
@@ -169,5 +179,7 @@ Partial Class Form1
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents lbl6Answer As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents btnAnswer2 As System.Windows.Forms.Button
+    Friend WithEvents lblAnswer7 As System.Windows.Forms.Label
 
 End Class
