@@ -1,8 +1,6 @@
 ﻿Public Class Form1
 
 
-
-
     Private Sub btnAnswer2_Click(sender As Object, e As EventArgs) Handles btnAnswer2.Click
         Dim strSecretName As String = "Katreena"
         Dim strGuessName As String = Me.txtanswer.Text
@@ -20,5 +18,6 @@
 
         
     End Sub
+
 End Class
 

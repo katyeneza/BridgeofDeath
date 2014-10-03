@@ -128,7 +128,7 @@ Partial Class Form1
         '
         'btnAnswer2
         '
-        Me.btnAnswer2.Location = New System.Drawing.Point(95, 199)
+        Me.btnAnswer2.Location = New System.Drawing.Point(90, 183)
         Me.btnAnswer2.Name = "btnAnswer2"
         Me.btnAnswer2.Size = New System.Drawing.Size(137, 45)
         Me.btnAnswer2.TabIndex = 12
@@ -138,11 +138,10 @@ Partial Class Form1
         'lblAnswer7
         '
         Me.lblAnswer7.AutoSize = True
-        Me.lblAnswer7.Location = New System.Drawing.Point(193, 177)
+        Me.lblAnswer7.Location = New System.Drawing.Point(137, 240)
         Me.lblAnswer7.Name = "lblAnswer7"
-        Me.lblAnswer7.Size = New System.Drawing.Size(39, 13)
+        Me.lblAnswer7.Size = New System.Drawing.Size(0, 13)
         Me.lblAnswer7.TabIndex = 13
-        Me.lblAnswer7.Text = "Label7"
         '
         'Form1
         '
